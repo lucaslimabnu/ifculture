@@ -1,0 +1,43 @@
+* {
+  font-family: 'Nunito', sans-serif !important;
+}
+
+a.navbar-brand {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.username{
+  font-weight: 700;
+}
+
+.feed {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.post {
+  margin-top: 20px;
+}
+
+@keyframes clap-up{
+  0%{
+      transform: rotate(0deg) scale(1.1) translateX(2px);
+      }
+  33%{
+      transform: rotate(0deg) scale(.9) translateX(0px);
+      }
+  50%{
+      transform: rotate(0deg) scale(0.85) translateX(0px);
+      }
+  66%{
+      transform: rotate(0deg) scale(1.1) translateX(0px);
+      }
+  100%{
+      transform: rotate(0deg) scale(1) translateX(0px);
+      }
+}
+
+.clap-animation{
+  animation: clap-up .3s 1 0s ease-in-out;
+}
