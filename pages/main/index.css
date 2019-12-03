@@ -2,6 +2,10 @@
   font-family: 'Nunito', sans-serif !important;
 }
 
+body {
+  background-color: #fdfdfd;
+}
+
 a.navbar-brand {
   font-size: 32px;
   font-weight: 700;
@@ -18,6 +22,39 @@ a.navbar-brand {
 
 .post {
   margin-top: 20px;
+}
+
+.post .card-img-top {
+  border-radius: 0;
+}
+
+.post .card-text {
+  margin-bottom: 0;
+}
+
+.post .card-footer {
+  padding: 0;
+}
+
+.post .card-footer input {
+  border: 0;
+}
+
+.post .card-footer input::placeholder {
+  color: #ddd;
+}
+
+.post .card-footer input:focus {
+  box-shadow: 0 0 0 0 ;
+  z-index: 0;
+}
+
+.post .card-footer .input-group-append {
+  border: 0;
+}
+
+.post .card-footer .input-group-append button {
+  border-radius: 3px 0 0 3px;
 }
 
 @keyframes clap-up{
@@ -40,4 +77,18 @@ a.navbar-brand {
 
 .clap-animation{
   animation: clap-up .3s 1 0s ease-in-out;
+}
+
+.comment-section {
+  margin-top: 1em;
+}
+.comment-section .comment .username {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #333;
+}
+.comment-section .comment {
+  font-size: 16px;
+  font-weight: 300;
+  color: #777;
 }
